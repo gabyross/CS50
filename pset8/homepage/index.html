@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en" class="example">
+
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="script.js" rel="stylesheet">
+    <title>My Webpage</title>
+  </head>
+
+  <body>
+    <section class="first-section" class="col-lg-4 col-md-6 col-sm-12">
+      <header id="myVar" onscroll="myFunction()" style="position:fixed">
+        <strong>
+          <span><i>Gabyross</i></span>
+        </strong>
+        <nav class="ml-auto navbar navbar-expand-sm">
+          <ul>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      </div>
+      <div>
+        <div class="starting" alt="profile_image">
+          <h2 class=" initial-sentence first-sentence">Me llamo Gabriela Venegas</h2>
+          <h2 class=" initial-sentence second-sentence">y esta soy yo</h2>
+          <a href="my-cv.pdf" download=" " type="button" class="btn btn-light CV">descargar CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section" class="col-lg-4 col-md-6 col-sm-12">
+      <span class="divited"><h3 class="post_category subtitle">Sobre mí</h3></span>
+    </section>
+
+    <div class="col-lg-4 col-lg-6 col-md-6 col-md-8 col-md-12 col-sm-12">
+      <div class="text info-section">
+        <strong>
+          Soy una persona procutiva y emprendedora, que adora los retos, no se rinde fácilmente y siempre busca distintas maneras de mejorar en todos los ámbitos. Soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, comprendiendo así una gran capacidad de aprendizaje y de trabajar en equipo. Además, mi experiencia personal y profesional me permite desarrollar eficientemente mecanismos de incremento productivo y mejoras económicas.
+        </strong>
+      </div>
+      <div class="text one-line-divited">
+        Nací en Maracay-Aragua, Venezuela el 10 de enero de 2003, donde viví los primeros 16 años de mi vida. A los 17 años de edad me mudé a Caracas, la capital de mi país, donde tras finalizar mi secundaria inicié mis estudios de distintos lenguajes de programación. Actualmente formo parte de la Universidad Simón Bolívar en la carrera de Ingeniería en Computación y realizo por mi cuenta desarrollo web.
+      </div>
+      <div class="text one-line-divited">
+        Tengo distintos intereses tales como el desarrollo web, la salud física y la repostería. En mi tiempo libre suelo investigar acerca de temas que me gustan así como tópicos que me permiten desarrollar mis habilidades y estudios. Además practico danza árabe, realizo ejercicio, hago yoga, horneo dulces y tortas con el fun de practicar repostería, y también leo acerca de temas que me atraen o benefician de diferentes maneras, ya sea personalmente o en mis estudios e intereses profesionales.
+      </div>
+    </div>
+    <div>
+      <img src="img/perfil3.jpeg" class="images-style"/>
+    </div>
+
+    <footer class="page-footer font-small teal pt-4" class="col-lg-4 col-lg-6 col-md-6 col-sm-12">
+      <div class="text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Nacimiento</h5>
+            <p class="footer-text">10 de enero de 1003 en Maracay-Venezuela</p>
+
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Perfil</h5>
+            <p class="footer-text">Una chica proactiva, analítica, metódica y amante de la programación</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        <strong>© 2020 Copyright: Gabriela Venegas</strong>
+      </div>
+    </footer>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("myVar").className = "color-header";
+        } else {
+          document.getElementById("myVar").className = "transparent-header";
+        }
+      }
+    </script>
+  </body>
+</html>

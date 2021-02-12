@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en" class="example">
+
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesContacto.css" rel="stylesheet">
+    <link href="script.js" rel="stylesheet">
+    <title>My Webpage</title>
+  </head>
+
+  <body>
+    <section class="first-section" class="col-lg-4 col-md-6 col-sm-12">
+      <header id="myVar" onscroll="myFunction()" style="position:fixed">
+        <strong>
+          <span><i>Gabyross</i></span>
+        </strong>
+        <nav class="ml-auto navbar navbar-expand-sm">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      </div>
+      <div>
+        <div class="starting" alt="profile_image">
+          <h2 class=" initial-sentence first-sentence">Me llamo Gabriela Venegas</h2>
+          <h2 class=" initial-sentence second-sentence">y así me puedes contactar</h2>
+          <a href="my-cv.pdf" download=" " type="button" class="btn btn-light CV">descargar CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section" class="col-lg-4 col-md-6 col-sm-12">
+      <span class="divited"><h3 class="subtitle">Contacto</h3></span>
+    </section>
+
+    <div class="col-lg-4 col-lg-6 col-md-6 col-md-8 col-md-12 col-sm-12">
+      <div class="text info-section">
+        <strong class="little-titles">
+          Redes Sociales
+        </strong>
+      </div>
+      <div class="text">
+        <section class="col-md-10">
+            <div class="single-contact contact-add-info">
+                <ul>
+                    <li class="social-element">
+                        <a class="link" href="https://www.facebook.com/gabriela.venegas.127201">
+                            <strong><i class="fa fa-facebook" aria-hidden="true">Facebook</i></strong>
+                        </a>
+                        <div>
+                            Gabriela Venegas
+                        </div>
+                    </li>
+                    <hr class="visible-xs">
+                    <li class="social-element">
+                        <a href="https://www.linkedin.com/in/gabriela-venegas-44b1a7201">
+                            <strong><i class="fa fa-linkedin" aria-hidden="true">Linkedin</i></strong>
+                        </a>
+                        <div>
+                            Gabriela Venegas
+                        </div>
+                    </li>
+                    <hr class="visible-xs">
+                    <li class="social-element">
+                        <a href="https://www.instagram.com/gaby_ross_gato/">
+                            <strong><i class="fa fa-instagram" aria-hidden="true">Instagram</i></strong>
+                        </a>
+                        <div>
+                            gaby_ross_gato
+                        </div>
+                    </li>
+                    <hr class="visible-xs">
+                    <li class="social-element">
+                        <a href="https://github.com/gabyross">
+                            <strong><i class="fa fa-github" aria-hidden="true">Github</i></strong>
+                        </a>
+                        <div>
+                            gabyross
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+      </div>
+      <div div class="one-line-divited">
+        <div class="text info-section">
+            <strong>También puedes contactarme por mi correo electrónico!</strong>
+            <p>gabyross.g@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="img/contact-sideA.jpg" class="images-style"/>
+    </div>
+
+    <footer class="page-footer font-small teal pt-4" class="col-lg-4 col-lg-6 col-md-6 col-sm-12">
+      <div class="text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Nacimiento</h5>
+            <p class="footer-text">10 de enero de 1003 en Maracay-Venezuela</p>
+
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Perfil</h5>
+            <p class="footer-text">Una chica proactiva, analítica, metódica y amante de la programación</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        <strong>© 2020 Copyright: Gabriela Venegas</strong>
+      </div>
+    </footer>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("myVar").className = "color-header";
+        } else {
+          document.getElementById("myVar").className = "transparent-header";
+        }
+      }
+    </script>
+  </body>
+</html>

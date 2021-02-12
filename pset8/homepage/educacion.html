@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en" class="example">
+  
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesEducacion.css" rel="stylesheet">
+    <link href="script.js" rel="stylesheet">
+    <title>My Webpage</title>
+  </head>
+  
+  <body>
+    <section class="first-section" class="col-lg-4 col-md-6 col-sm-12">
+      <header id="myVar" onscroll="myFunction()" style="position:fixed">
+        <strong>
+          <span><i>Gabyross</i></span>
+        </strong>
+        <nav class="ml-auto navbar navbar-expand-sm">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html" class="active">Educación</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      </div>
+      <div>
+        <div class="starting" alt="profile_image">
+          <h2 class=" initial-sentence first-sentence">Me llamo Gabriela Venegas</h2>
+          <h2 class=" initial-sentence second-sentence">y esta es mi educación</h2>
+          <a href="my-cv.pdf" download=" " type="button" class="btn btn-light CV">descargar CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section" class="col-lg-4 col-md-6 col-sm-12">
+      <span class="divited"><h3 class="post_category subtitle">Educación</h3></span>
+    </section>
+
+    <div class="col-lg-4 col-lg-6 col-md-6 col-md-8 col-md-12 col-sm-12">
+      <div class="text info-section">
+        <strong class="little-titles">
+          Estudios
+        </strong>
+      </div>
+      <div class="text">
+        <section class="col-md-10">
+            <span><strong>Bachiller:</strong> 2015 - 2020</span>
+            <br>U.E.P. C.E.D.I.
+            <br>Aragua - Venezuela
+            <br>Promedio: 19.129032
+            <hr class="visible-xs">
+
+            <span><strong>Ingenieria en Computación:</strong> 2020 - present</span>
+            <br>Universidad Simón Bolívar
+            <br>Caracas - Venezuela
+            <br>Código: 10059
+            <br>Posición: 9
+        </section>
+      </div>
+      <div class="text info-section one-line-divited">
+        <strong class="little-titles">
+          Cursos
+        </strong>
+      </div>
+      <div class="text">
+        <section class="col-md-10">
+            <span><strong>HTML, CSS And JAVASCRIPT:</strong> Coursera</span>
+            <br>Cómo codificar e implementar páginas web modernas.
+            <hr class="visible-xs">
+
+            <span><strong>Python For Data Science And AI:</strong> Coursera</span>
+            <br>Fundamentos de Python, estructuras de datos de Python y trabajo con datos en Python.
+            <hr class="visible-xs">
+
+            <span><strong>Version Control With Git:</strong> Coursera</span>
+            <br>Sistema de control de versiones de Git y archivos del equipo de administración para proyectos grandes y pequeños.
+            <hr class="visible-xs">
+
+            <span><strong>CS50:</strong> Edx</span>
+            <br>Cómo pensar algorítmicamente y resolver problemas de manera eficiente.
+            <br>Los lenguajes incluyen: C, Python y SQL más HTML, CSS y JavaScript.
+            <hr class="visible-xs">
+        </section>
+      </div>
+    </div>
+    <div>
+      <img src="img/perfil1.jpeg" class="images-style section-de-prueba"/>
+    </div>
+
+    <footer class="page-footer font-small teal pt-4" class="col-lg-4 col-lg-6 col-md-6 col-sm-12">
+      <div class="text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Nacimiento</h5>
+            <p class="footer-text">10 de enero de 1003 en Maracay-Venezuela</p>
+    
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-6 mb-md-0 mb-3">
+            <h5 class="text-uppercase font-weight-bold footer-text">Perfil</h5>
+            <p class="footer-text">Una chica proactiva, analítica, metódica y amante de la programación</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        <strong>© 2020 Copyright: Gabriela Venegas</strong>
+      </div>
+    </footer>
+    
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("myVar").className = "color-header";
+        } else {
+          document.getElementById("myVar").className = "transparent-header";
+        }
+      }
+    </script>
+  </body>
+</html>

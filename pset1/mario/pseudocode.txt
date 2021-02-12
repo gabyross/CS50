@@ -1,0 +1,20 @@
+mine:
+
+ask height
+wait for answer
+while answer is > 0 && < 9
+if the number is not 8, then complete it with x spaces to get that number of thinks
+increase row spaces depending on the number
+reverse order
+printf answer with #
+print every repetition of hashes in a new line
+if answer is not > 0 && < 9
+then ask again for height until the answer is between those parameters
+
+
+theirs:
+
+Prompt user for height
+If height is less than 1 or greater than 8 (or not an integer at all), go back one step
+Iterate from 1 through height:
+On iteration i, print i hashes and then a newline
