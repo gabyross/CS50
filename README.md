@@ -11,13 +11,13 @@ To-do lists don't have to be complicated. A new to-do list application appears a
 ## Use of '' My To-do ''
 There are two screens that can be accessed through a navigation area, these are the information screen about the application and the screen that allows its immediate use.
 
- - ** '' About Us '' screen: **
+ - **'' About Us '' screen:**
 Provides usage data for * My To-do *.
 1. What is it.
 2. Why choose this app for the organization of tasks and objectives,
 3. What makes it a great app to select.
 
- - ** '' Todo '' screen **:
+ - **'' Todo '' screen**:
  Understand the general application.
 1. At the top allows you to write the tasks that you plan to add.
 2. In the case you want to delete what you have written, instead of pressing the * backspace * key several times, you can also click on an * x * that appears at the end of the text.
