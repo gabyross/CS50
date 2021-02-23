@@ -6,7 +6,7 @@ How to think algorithmically and solve problems efficiently.
 This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. 
 
 
-## Languages include 
+## Languages included 
 1. C.
 2. Python.
 3. SQL.
@@ -17,7 +17,8 @@ This is CS50x , Harvard University's introduction to the intellectual enterprise
 **Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. The on-campus version of CS50x , CS50, is Harvard's largest course.**
 
 
-## Learning
+## What did I learn in CS50?
+
 - A broad and robust understanding of computer science and programming.
 - How to think algorithmically and solve programming problems efficiently.
 - Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.
